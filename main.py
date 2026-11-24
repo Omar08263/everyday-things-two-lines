@@ -1,9 +1,10 @@
-"""Write a two-line explanation of a toaster to /output/entry.txt.
+"""Write a two-line explanation of rain to /output/entry.txt.
 
-Line 1 explains the toaster to a 10-year-old in one vivid sentence built
-on a single analogy (a tiny elevator). Line 2 says in one sentence why
-the analogy works: what it maps (bread going down and coming back up on
-its own) and what it leaves out (the glowing wires and the timer).
+Line 1 explains rain to a 10-year-old in one vivid sentence built on a
+single analogy (a wet dog shaking water off its fur). Line 2 says in one
+sentence why the analogy works: what it maps (drops leaving the cloud
+when they get too heavy) and what it leaves out (clouds never shake or
+choose to do it).
 
 Deterministic: the same bytes on every run. Standard library only, no
 network, no randomness, no reads outside this file.
@@ -13,11 +14,12 @@ import os
 from pathlib import Path
 
 ENTRY = (
-    "A toaster is a tiny elevator that carries your bread down into a hot "
-    "room and pops it back up when it turns golden.\n"
-    "It shows the bread going down and coming back up on its own, but it "
-    "leaves out the glowing wires that do the cooking and the timer that "
-    "decides when it is done."
+    "Rain is a cloud letting go of the tiny water drops it has gathered "
+    "until they are too heavy to stay up, the way a wet dog shakes water "
+    "off its fur.\n"
+    "The shaking fits because the drops really do leave the cloud when "
+    "they get too heavy, but it leaves out that clouds never shake or "
+    "choose to do it, as the drops just grow heavy and fall on their own."
 )
 
 
